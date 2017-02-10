@@ -1,0 +1,13 @@
+{
+  "name": "clase",
+  "version": "1.0.0",
+  "description": "",
+  "main": "es5.js",
+  "scripts": {
+    "build": "babel es5.js -d dist"
+  },
+  "author": "Sacha Lifszyc <sacha.lifszyc@gmail.com> (https://twitter.com/slifszyc)",
+  "devDependencies": {
+    "babel-preset-env": "^1.1.8"
+  }
+}
